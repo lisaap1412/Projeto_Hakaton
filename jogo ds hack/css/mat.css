@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+	background: url('https://media.istockphoto.com/vectors/game-background-with-gamepad-and-graphic-elements-joystick-sign-vector-id1207017851?k=20&m=1207017851&s=612x612&w=0&h=Ur1iIefBRRj3Jd34W-mNdKOAplKnhQ-hBPUaGJ8YfWg=');
+}
+
+.panel{
+	width: 305px;
+	height: 305px;
+	border-radius: 10px;
+}
+
+.modal{
+	position: absolute;
+	transition: all .5s;
+}
+
+#container{
+	position: relative;
+	margin: 50px auto;
+	border: outset;
+	background-color: rgb(9, 9, 9);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+#startScreen{
+	background: url('../img/start.png');
+	opacity: 1;
+	z-index: 1;
+	width: 300px;
+	height: 300px;
+}
+
+#overScreen{
+	background: url('../img/Captura\ de\ tela\ 2022-10-22\ 053950.png');
+	opacity: 0;
+	z-index: -1;
+}
+
+.tile{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	transition: left .5s, top .5s;
+}
+
+.tile:hover{
+	border: inset;
+	border-radius: 10px;
+}
+
+.container-teste > div{
+	display:none;
+}
+
+.login_button{
+	cursor:pointer;
+}
+
